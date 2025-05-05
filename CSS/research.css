@@ -1,0 +1,104 @@
+/* research */
+
+#research /* Container for the research section */
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+/* Styles for the heading within the research section */
+.research-heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.research-heading span /* Color for the span within the heading */
+{
+    color: #18b031 ;
+}
+.research-heading h3{  /* to change font size and weight */
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* Styles for .research-container items */
+.research-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+/* Styles for each research box */
+.research-box
+{
+    width: 350px;
+    background-color: #ffffff;
+    border:1px solid #ececec;
+    margin:20px;
+}
+/* Styles for the image within each research box */
+.research-img
+{
+    width: 100%; 
+    height:auto;
+}
+/* Styles for the image*/
+.research-img img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+/* Styles for the text within each research box */
+.research-text
+{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+/* Styles for the span  within the text */
+.research-text span{
+    color:rgb(47, 202, 20);
+    font-size: 0,9rem;
+}
+/* Styles research title*/
+.research-text .research-title{
+    font-size: 25px; ;
+    font-weight: 500;
+    color: black;
+}
+/* to hover the research title */
+.research-text .research-title:hover{
+    color: #09b326;
+    transition: all ease 0.3s;
+}
+/* Styles the paragraph (p)*/
+.research-text p{
+    color: #9b9b9b;
+    font-size: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 15px 0px;
+}
+/* Color for the anchor text */
+.research-text a{
+    color: #0f0f0f; 
+}
+/* hover for the anchor text */
+.research-text a:hover
+{
+    color: rgb(229, 13, 13);
+    transition: all ease 0.3s;
+}
